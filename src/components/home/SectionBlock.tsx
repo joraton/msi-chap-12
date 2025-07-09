@@ -55,26 +55,26 @@ export default function SectionBlock({
     <motion.div
       whileHover={{ scale: 1.02, y: -2 }}
       transition={{ duration: 0.2 }}
-      className="bg-white rounded-xl shadow-lg border border-gray-100 p-6 hover:shadow-xl transition-all duration-300"
+      className="bg-white rounded-xl shadow-lg border border-gray-100 p-4 sm:p-6 hover:shadow-xl transition-all duration-300"
     >
-      <div className="flex items-center justify-between">
-        <div className="flex items-center gap-4 flex-1">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:justify-between">
+        <div className="flex items-start sm:items-center gap-3 sm:gap-4 flex-1 w-full">
           {/* Icon */}
-          <div className={`rounded-full p-3 ${colorClasses[color as keyof typeof colorClasses]}`}>
-            <Icon className="h-6 w-6" />
+          <div className={`rounded-full p-2.5 sm:p-3 flex-shrink-0 ${colorClasses[color as keyof typeof colorClasses]}`}>
+            <Icon className="h-5 w-5 sm:h-6 sm:w-6" />
           </div>
 
           {/* Content */}
-          <div className="flex-1">
-            <h3 className="text-xl font-bold text-gray-900 mb-1">{title}</h3>
-            <p className="text-gray-600">{description}</p>
+          <div className="flex-1 min-w-0">
+            <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-1 leading-tight">{title}</h3>
+            <p className="text-sm sm:text-base text-gray-600 leading-relaxed">{description}</p>
           </div>
         </div>
 
         {/* Button */}
         <Link
           href={href}
-          className={`px-6 py-3 text-white font-medium rounded-lg transition-colors ${
+          className={`w-full sm:w-auto px-4 sm:px-6 py-2.5 sm:py-3 text-white font-medium rounded-lg transition-colors text-center text-sm sm:text-base ${
             buttonColorClasses[color as keyof typeof buttonColorClasses]
           }`}
         >

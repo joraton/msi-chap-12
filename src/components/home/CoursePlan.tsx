@@ -64,12 +64,12 @@ export default function CoursePlan() {
   return (
     <div>
       {/* Section Header */}
-      <div className="text-center mb-12">
-        <div className="flex items-center justify-center gap-3 mb-4">
-          <Target className="h-8 w-8 text-blue-600" />
-          <h2 className="text-3xl font-bold text-gray-900">Plan du cours</h2>
+      <div className="text-center mb-8 sm:mb-12">
+        <div className="flex items-center justify-center gap-2 sm:gap-3 mb-3 sm:mb-4">
+          <Target className="h-6 w-6 sm:h-8 sm:w-8 text-blue-600" />
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">Plan du cours</h2>
         </div>
-        <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+        <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto px-4">
           Suivez ce parcours structuré pour maîtriser les techniques de découpage et de planification de projets
         </p>
       </div>
