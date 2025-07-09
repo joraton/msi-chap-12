@@ -31,14 +31,14 @@ export default function Annexes() {
                   <h3 className="font-semibold text-blue-900 mb-4">Contexte général</h3>
                   <p className="text-blue-800 mb-4">
                     La solution GED (Gestion Électronique Documentaire) actuelle est utilisée par 100 clients 
-                    répartis sur différents secteurs d'activité. Cette solution permet :
+                    répartis sur différents secteurs d&apos;activité. Cette solution permet :
                   </p>
                   <ul className="text-blue-800 space-y-2">
-                    <li>• La numérisation et l'indexation des documents</li>
+                    <li>• La numérisation et l&apos;indexation des documents</li>
                     <li>• La recherche multicritères dans les archives</li>
                     <li>• La gestion des workflows de validation</li>
-                    <li>• L'archivage légal avec horodatage</li>
-                    <li>• L'intégration avec les ERP clients</li>
+                    <li>• L&apos;archivage légal avec horodatage</li>
+                    <li>• L&apos;intégration avec les ERP clients</li>
                   </ul>
                 </div>
 
@@ -49,9 +49,9 @@ export default function Annexes() {
                   </p>
                   <ul className="text-blue-800 space-y-2">
                     <li>• Architecture obsolète (technologies legacy)</li>
-                    <li>• Performances dégradées avec l'augmentation des volumes</li>
+                    <li>• Performances dégradées avec l&apos;augmentation des volumes</li>
                     <li>• Coûts de maintenance élevés</li>
-                    <li>• Difficultés d'évolution fonctionnelle</li>
+                    <li>• Difficultés d&apos;évolution fonctionnelle</li>
                     <li>• Non-conformité aux nouvelles réglementations (RGPD)</li>
                   </ul>
                 </div>
@@ -63,8 +63,8 @@ export default function Annexes() {
                     <li>• Interface utilisateur modernisée (responsive design)</li>
                     <li>• API REST pour faciliter les intégrations</li>
                     <li>• Conformité RGPD native</li>
-                    <li>• Fonctionnalités d'IA pour l'indexation automatique</li>
-                    <li>• Réduction des coûts d'exploitation de 30%</li>
+                    <li>• Fonctionnalités d&apos;IA pour l&apos;indexation automatique</li>
+                    <li>• Réduction des coûts d&apos;exploitation de 30%</li>
                   </ul>
                 </div>
               </div>
@@ -83,7 +83,7 @@ export default function Annexes() {
                     <div className="border-l-4 border-green-500 pl-4">
                       <h4 className="font-medium text-green-800">Semaine 1-2 : Audit technique</h4>
                       <ul className="text-green-700 text-sm space-y-1">
-                        <li>• Analyse de l'architecture existante</li>
+                        <li>• Analyse de l&apos;architecture existante</li>
                         <li>• Inventaire des documents et volumes</li>
                         <li>• Cartographie des intégrations</li>
                         <li>• Évaluation des performances actuelles</li>
@@ -92,7 +92,7 @@ export default function Annexes() {
                     <div className="border-l-4 border-green-500 pl-4">
                       <h4 className="font-medium text-green-800">Semaine 3-4 : Conception de la migration</h4>
                       <ul className="text-green-700 text-sm space-y-1">
-                        <li>• Définition de l'architecture cible</li>
+                        <li>• Définition de l&apos;architecture cible</li>
                         <li>• Plan de migration des données</li>
                         <li>• Stratégie de tests</li>
                         <li>• Planning détaillé de bascule</li>
@@ -108,7 +108,7 @@ export default function Annexes() {
                       <h4 className="font-medium text-green-800">Semaine 1-4 : Développements spécifiques</h4>
                       <ul className="text-green-700 text-sm space-y-1">
                         <li>• Adaptation des connecteurs métier</li>
-                        <li>• Personnalisation de l'interface</li>
+                        <li>• Personnalisation de l&apos;interface</li>
                         <li>• Configuration des workflows</li>
                         <li>• Développement des scripts de migration</li>
                       </ul>
@@ -116,7 +116,7 @@ export default function Annexes() {
                     <div className="border-l-4 border-green-500 pl-4">
                       <h4 className="font-medium text-green-800">Semaine 5-8 : Tests et validation</h4>
                       <ul className="text-green-700 text-sm space-y-1">
-                        <li>• Tests unitaires et d'intégration</li>
+                        <li>• Tests unitaires et d&apos;intégration</li>
                         <li>• Tests de performance et de charge</li>
                         <li>• Tests de migration sur échantillon</li>
                         <li>• Validation utilisateur (UAT)</li>
@@ -134,7 +134,7 @@ export default function Annexes() {
                         <li>• Extraction des données source</li>
                         <li>• Transformation et nettoyage</li>
                         <li>• Chargement dans la nouvelle GED</li>
-                        <li>• Contrôles d'intégrité</li>
+                        <li>• Contrôles d&apos;intégrité</li>
                       </ul>
                     </div>
                     <div className="border-l-4 border-green-500 pl-4">
@@ -155,7 +155,7 @@ export default function Annexes() {
                     <li>• Support utilisateur renforcé</li>
                     <li>• Optimisations de performance</li>
                     <li>• Correction des anomalies mineures</li>
-                    <li>• Bilan de migration et retour d'expérience</li>
+                    <li>• Bilan de migration et retour d&apos;expérience</li>
                   </ul>
                 </div>
               </div>
@@ -309,7 +309,7 @@ export default function Annexes() {
                     <div className="border-l-4 border-red-500 pl-4">
                       <h4 className="font-medium text-red-800">Incompatibilité des intégrations existantes</h4>
                       <p className="text-red-700 text-sm">Impact : Moyen | Probabilité : Forte</p>
-                      <p className="text-red-700 text-sm">Mitigation : Audit préalable, développement d'adaptateurs, tests d'intégration</p>
+                      <p className="text-red-700 text-sm">Mitigation : Audit préalable, développement d&apos;adaptateurs, tests d&apos;intégration</p>
                     </div>
                     <div className="border-l-4 border-red-500 pl-4">
                       <h4 className="font-medium text-red-800">Performances dégradées</h4>
@@ -340,7 +340,7 @@ export default function Annexes() {
                   <ul className="text-red-700 space-y-2">
                     <li>• Conformité RGPD : traçabilité des données personnelles</li>
                     <li>• Archivage légal : conservation des documents selon réglementation sectorielle</li>
-                    <li>• Sécurité : chiffrement, contrôle d'accès, audit trail</li>
+                    <li>• Sécurité : chiffrement, contrôle d&apos;accès, audit trail</li>
                     <li>• Continuité de service : RTO &lt; 4h, RPO &lt; 1h</li>
                   </ul>
                 </div>

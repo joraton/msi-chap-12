@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import BackToPlanButton from '@/components/content/BackToPlanButton';
-import { Clock, Calendar, Target, CheckCircle, AlertTriangle, Eye, EyeOff } from 'lucide-react';
+import { Calendar, Target, CheckCircle, AlertTriangle, Eye, EyeOff } from 'lucide-react';
 
 interface Question {
   id: string;
